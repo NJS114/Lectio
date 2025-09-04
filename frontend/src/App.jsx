@@ -1,17 +1,13 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import { AuthProvider } from './hooks/useAuth';
-import RouterSimple from './components/RouterSimple';
+import RouterFinal from './components/RouterFinal';
 import ErrorBoundary from './components/ErrorBoundary';
-import './styles/design-system.css';
 
 function App() {
   return (
     <ErrorBoundary>
       <BrowserRouter>
-        <AuthProvider>
-          <RouterSimple />
-        </AuthProvider>
+        <RouterFinal />
       </BrowserRouter>
     </ErrorBoundary>
   );
