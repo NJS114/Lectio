@@ -131,8 +131,8 @@ La plateforme Lectio est maintenant **100% fonctionnelle** et prête pour la pro
 ## 5. Configuration SendCloud
 
 ### 5.1. Credentials Configurés
-- **Clé publique :** 5f53b85e-3359-48cf-91b5-43210fc275c9
-- **Clé secrète :** 971c420aa4e145b3b611eba09cb7bdad
+- **Clé publique :** [VOTRE_CLE_PUBLIQUE_SENDCLOUD]
+- **Clé secrète :** [VOTRE_CLE_SECRETE_SENDCLOUD]
 - **Nom du compte :** Lection
 
 ### 5.2. Fonctionnalités Testées
@@ -159,8 +159,8 @@ npm run dev
 
 ### 6.3. Variables d'Environnement
 ```
-SENDCLOUD_API_KEY=5f53b85e-3359-48cf-91b5-43210fc275c9
-SENDCLOUD_API_SECRET=971c420aa4e145b3b611eba09cb7bdad
+SENDCLOUD_API_KEY=[VOTRE_CLE_PUBLIQUE_SENDCLOUD]
+SENDCLOUD_API_SECRET=[VOTRE_CLE_SECRETE_SENDCLOUD]
 ```
 
 ## 7. URLs d'Accès

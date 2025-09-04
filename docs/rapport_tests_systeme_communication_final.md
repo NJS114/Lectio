@@ -155,10 +155,10 @@ Le système de communication de la plateforme Lectio a été développé et test
 MAIL_SERVER=smtp-relay.brevo.com
 MAIL_PORT=587
 MAIL_USE_TLS=True
-MAIL_USERNAME=7ce3f1002@smtp-brevo.com
-MAIL_PASSWORD=WdrEjsK0fUNDXhQM
+MAIL_USERNAME=[VOTRE_USERNAME_BREVO]
+MAIL_PASSWORD=[VOTRE_MOT_DE_PASSE_BREVO]
 MAIL_DEFAULT_SENDER=aouniibrahim94@gmail.com
-MAIL_API_KEY=xsmtpsib-caeb0dbee3062554246953f0a1e4bcc41a362007474f9628ca469c91e13fb878-GAhN5TB79f1gnxw6
+MAIL_API_KEY=[VOTRE_CLE_API_BREVO]
 ```
 
 ### Déploiement
