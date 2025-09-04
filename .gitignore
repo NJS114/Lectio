@@ -1,0 +1,67 @@
+# Dépendances
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Base de données
+*.db
+*.sqlite
+*.sqlite3
+database/
+
+# Logs
+*.log
+logs/
+
+# Configuration sensible
+.env
+.env.local
+.env.production
+.env.development
+
+# Build et dist
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Fichiers temporaires
+*.tmp
+*.temp
+.cache/
+
+# Coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Factures générées
+invoices/
+*.pdf
+
+# Screenshots
+screenshots/
+
